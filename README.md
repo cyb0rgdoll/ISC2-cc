@@ -1,32 +1,33 @@
 
 # is2c-cc
-IS2C - CC Cybersecurity Course Notes to help you prepare for the exam
+IS2C - CC Cybersecurity Course Notes (Mike Cappell to help you prepare for the exam
 
 [is2c cc notes.docx](https://github.com/user-attachments/files/17506139/is2c.cc.notes.docx)
 
 **ISC2-CC Breakdown of Exam**
--Domain 1: Security Principles (26%)
--Domain 2: Business Continuity, Disaster Recovery, and Incident Response (10%)
--Domain 3: Access Control Concepts (22%)
--Domain 4: Network Security (24%)
-- Domain 5: Security Operations (18%)
+
+	-Domain 1: Security Principles (26%)
+	-Domain 2: Business Continuity, Disaster Recovery, and Incident Response (10%)
+	-Domain 3: Access Control Concepts (22%)
+	-Domain 4: Network Security (24%)
+	-Domain 5: Security Operations (18%)
 
 **ISC2 Code of Ethics**
-
--	Protect society and infrastructure (Hacking)
--	Anyone may file a complaint
--	Act honorably, justly and within laws (Lying)
--	Anyone may file a complaint
--	Serve principles diligently and competently (Fulfill your duties)
--	Only employers and clients may file under a complaint, due to the nature of the code
--	Advance the information security profession (Helping cheat exams)
--	Other Professionals may file a complaint, due to the nature of the complaint
--	Professionals only
--	You are required to report any witness of violation of Code of Ethics
--	Failure to report witnessed violation is a violation
--	Submit a Complaints Form to report
--	You must have a standing before you make a complaint 
--	Standing: Alleged behavior must harm you or your profession in someway 
+	
+	-	Protect society and infrastructure (Hacking)
+	-	Anyone may file a complaint
+	-	Act honorably, justly and within laws (Lying)
+	-	Anyone may file a complaint
+	-	Serve principles diligently and competently (Fulfill your duties)
+	-	Only employers and clients may file under a complaint, due to the nature of the code
+	-	Advance the information security profession (Helping cheat exams)
+	-	Other Professionals may file a complaint, due to the nature of the complaint
+	-	Professionals only
+	-	You are required to report any witness of violation of Code of Ethics
+	-	Failure to report witnessed violation is a violation
+	-	Submit a Complaints Form to report
+	-	You must have a standing before you make a complaint 
+	-	Standing: Alleged behavior must harm you or your profession in someway 
 
 **3 Goals of Information Security**
 
