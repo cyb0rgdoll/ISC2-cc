@@ -7,6 +7,7 @@ The Certified in Cybersecurity℠ (CC) is for anyone interested in gaining a bas
 
 [ISC2 cc notes.docx](https://github.com/user-attachments/files/17511952/is2c.cc.notes.docx)
 
+
 **ISC2-CC Breakdown of Exam**
 
 	-	Domain 1: Security Principles (26%)
