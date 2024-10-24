@@ -4,14 +4,15 @@ IS2C - CC Cybersecurity Course Notes to help you prepare for the exam
 
 [is2c cc notes.docx](https://github.com/user-attachments/files/17506139/is2c.cc.notes.docx)
 
-ISC2-CC Breakdown of Exam
-Domain 1: Security Principles (26%)
-Domain 2: Business Continuity, Disaster Recovery, and Incident Response (10%)
-Domain 3: Access Control Concepts (22%)
-Domain 4: Network Security (24%)
-Domain 5: Security Operations (18%)
+**ISC2-CC Breakdown of Exam**
+-Domain 1: Security Principles (26%)
+-Domain 2: Business Continuity, Disaster Recovery, and Incident Response (10%)
+-Domain 3: Access Control Concepts (22%)
+-Domain 4: Network Security (24%)
+- Domain 5: Security Operations (18%)
 
-ISC2 Code of Ethics
+**ISC2 Code of Ethics**
+
 -	Protect society and infrastructure (Hacking)
 -	Anyone may file a complaint
 -	Act honorably, justly and within laws (Lying)
@@ -27,8 +28,9 @@ ISC2 Code of Ethics
 -	You must have a standing before you make a complaint 
 -	Standing: Alleged behavior must harm you or your profession in someway 
 
-3 Goals of Information Security
-Confidentiality
+**3 Goals of Information Security**
+
+- 	Confidentiality
 -	Protects information from unauthorized disclosure
 -	Integrity
 -	Protects information from unauthorized changes
@@ -36,7 +38,8 @@ Confidentiality
 -	Protects authorized access to systems and data
 -	Ensures information is available to authorized users
 
-Confidentiality Concerns
+**Confidentiality Concerns**
+
 -	Snooping
 -	Involves gathering information that is left out in the open
 -	Clean desk policies protect against snooping
@@ -52,7 +55,8 @@ Confidentiality Concerns
 -	Attacker uses psychological tricks to persuade employee to give it or give access to information
 -	Education and Training protects against social engineering
 
-Integrity Concerns
+**Integrity Concerns**
+
 -	Unauthorized Modification
 -	Attackers make changes without permission (can be internal=employees or external 
 -	Follow the Rules of Least Privilege to prevent unauthorized modification
@@ -68,7 +72,8 @@ Integrity Concerns
 -	Attackers eavesdrop on logins and reuse the captured credentials 
 -	Encryption prevents Replay attacks
 
-Availability Concerns
+**Availability Concerns**
+
 -	Denial of Service (DoS)
 -	When a malicious individual bombards a system with an overwhelming amount of traffic. 
 -	The idea to is to send so many requests to a server that it is unable to answer any requests from legitimate users
@@ -85,14 +90,19 @@ Availability Concerns
 -	Service outage may occur due to programming errors, failure of underlying equipment, and many more reasons
 -	Building systems that are resilient in the fact of errors and hardware failures protect against service outages
 
-Authentication & Authorization
+**Authentication & Authorization**
+
 Access Control Process
+
 1.	Identification
 -	Identification involves making a claim of identity (Can be false)
--	Electronic identification commonly uses usernames 
+-	Electronic identification commonly uses usernames
+  
 2.	Authentication
+
 -	Authentication requires proving a claim of identity
 -	Electronic authentication commonly uses passwords
+  
 3.	Authorization
 -	Authorization ensures that an action is allowed 
 -	Electronic authorization commonly takes the form of access control lists 
@@ -100,9 +110,9 @@ Access Control Process
 -	Accounting allows to track and maintain logs of user activity
 -	Can track systems and web browsing history 
 
-Authentication + Authorization + Accounting = AAA
+**Authentication + Authorization + Accounting = AAA**
 
-Password Security
+**Password Security**
 Controls you can implement when setting password requirements:
 -	Password length requirements
 -	Password complexity requirements
@@ -111,44 +121,35 @@ Controls you can implement when setting password requirements:
 -	Password history requirements
 -	Cannot use previously used passwords
 
-Password Managers
+**Password Managers**
 -	Secured password vaults often protected by biometric mechanisms (ex=fingerprints) 
 -	Facilitates the use of strong, unique passwords
 -	Stores passwords
 
+**Multi Factor Authentication**
 
-
-
-
-
-Multi Factor Authentication
-3 types of authentication factors
-
-1.	Something you know
--	Passwords, Pins
-2.	Something you are
--	Biometric Security Mechanisms
--	Fingerprints
--	Voice 
-3.	Something you have 
-•	Software and Hardware Tokens
+	3 types of authentication factors
+	
+	1.	Something you know -Passwords, Pins
+	2.	Something you are - Biometric Security Mechanisms Fingerprints Voice 
+	3.	Something you have - Software and Hardware Tokens
 
 You combine these factors all together = Multi Factor Authentication
 
 Note: Passwords combined with security questions are NOT multi factor authentication
 Passwords and security questions are both something you know
 
-Single Sign-On (SSO)
+**Single Sign-On (SSO)**
 -	Shares authenticated sessions across systems
 -	Organizations create SSO solutions within their organizations to avoid users repeatedly authenticating  
 
-Non-repudiation 
+**Non-repudiation **
 -	Prevents someone from denying the truth 
 -	Physical signatures can provide non-repudiation on contracts, receipts etc  
 -	Digital signatures use encryption to provide non-repudiation
 -	Other methods can be biometric security controls, Video-surveillance etc
 
-Privacy
+**Privacy**
 Organization Privacy Concerns
 
 1.	Protecting our down data
@@ -158,7 +159,7 @@ Organization Privacy Concerns
 3.	Protecting data collected by our organizations
 -	Protecting data that was entrusted to the organization (ex= client’s data)
 
-2 Types of Private Information
+**2 Types of Private Information**
 
 1.	Personally-Identifiable Information (PII)
 -	Any information that can be tied back to a specific individual 
@@ -166,36 +167,36 @@ Organization Privacy Concerns
 2.	Protected Health Information (PHI)
 -	Health care records and Regulated by HIPPA
 
-Reasonable expectation of privacy
+**Reasonable expectation of privacy**
 -	Many laws that govern whether information must be protected are based upon whether the person disclosing the information had a reasonable expectation of privacy 
 -	Ex= if you upload a YouTube video, you do not have a expectation of privacy
 -	You do have some expectation of privacy for private electronic communications such as: email, instant chats etc
 -	You do not have a reasonable expectation of privacy when sharing PII with an organization
 -	You do not have a reasonable expectation of privacy when using employer resources
 
-Risk Management
+**Risk Management**
 
 Internal Risks 
 -	Risks that arise from within the organization
 -	Internal control prevents internal risks
+  
 External Risks
-
 -	Risks that arise outside the organization
 -	Build controls that reduce the chance of attack/risks being successful (ex= multi factor
 -	authentication, or social engineering awareness campaigns)
 
 Multiparty Risks
-
 -	Risks that affect more than one organization
 -	Intellectual property theft poses a risk to knowledge-based organizations
 -	If attackers can alter, delete or steal this information, it would cause significant damage
 -	to the organization and its customers/counterparties 
 -	Software license agreements issues risk fines and legal actions for violation of license agreements
 
-Risk Assessment
+**Risk Assessment**
+
 Identifies and triages risks
 
-	Threat
+Threat
 -	Are external forces that jeopardize security 
 -	Threat Vector
 -	Threat Vectors are methods used by attackers to get to their target (ex= social engineering, hacker toolkit, etc)
@@ -212,18 +213,18 @@ Likelihood
 Impact
 -	Amount of damage a risk will cause
 
-2 Categories of Risk Assessment
+**2 Categories of Risk Assessment**
 
-Qualitative Techniques
+**Qualitative Techniques**
 -	Uses subjective ratings to evaluate risk likelihood and impact: Usually in the form of low, medium or high on both the likelihood and impact scales. 
 
-Quantitative Techniques
+**Quantitative Techniques**
 -	Uses subjective numeric ratings to evaluate risk likelihood and impact
 
 Risk Treatment (Management)
 -	Analyzes and implements possible responses to control risk
 
-4 Types of Risk Treatment 
+**4 Types of Risk Treatment **
 
 1.	Risk Avoidance
 	Changes business practices to make a risk irrelevant
@@ -247,7 +248,7 @@ Control Risk
 -	New risk that may have been introduced by the controls applied to mitigate risk
 -	Example : Controls Applied may be installing a firewall. While that firewall may have mitigated the inherent risk, the risk of that firewall failing is another newly introduced risk
 
-Inherent Risk → Controls Applied → (Residual Risk + Control Risk)
+**Inherent Risk → Controls Applied → (Residual Risk + Control Risk)**
 
 Risk Tolerance
 -	Is the level of risk an organization is willing to accept 
@@ -259,127 +260,131 @@ Defense in Depth
 -	Uses overlapping security controls
 -	Different methods of security with a common objective 
 
-3 Types of Control Purposes are:
+**3 Types of Control Purposes are:**
+	
+	1.	Prevent
+	-	Stops a security issue from occurring
+	2.	Detect 
+	-	Identify security issues requiring investigation
+	3.	Correct
+	-	Remediate security issues that have already occurred
 
-1.	Prevent
--	Stops a security issue from occurring
-2.	Detect 
--	Identify security issues requiring investigation
-3.	Correct
--	Remediate security issues that have already occurred
+**3 Types of Control Mechanisms are:**
+	
+	1.	Technical
+	-	Use technology to achieve control objectives 
+	-	Examples: Firewalls, Encryption, Data Loss Prevention, Antivirus Software)
+	-	Technical Control a.k.a Logical Control
+	
+	2.	Administrative
+	-	Uses processes to achieve control objectives
+	-	Examples: User access reviews, log monitoring, performing background checks)
+	
+	3.	Physical
+	-	Controls that impact the physical world
+	-	Examples: Locks, Security guard
 
-3 Types of Control Mechanisms are:
-
-1.	Technical
--	Use technology to achieve control objectives 
--	Examples: Firewalls, Encryption, Data Loss Prevention, Antivirus Software)
--	Technical Control a.k.a Logical Control
-
-2.	Administrative
--	Uses processes to achieve control objectives
--	Examples: User access reviews, log monitoring, performing background checks)
-
-3.	Physical
--	Controls that impact the physical world
--	Examples: Locks, Security guard
-
-Configuration Management
+**Configuration Management**
 -	Tracks the way specific devices are set up
 -	Tracks both operating system settings and the inventory of software installed on a device
 -	Should also create Artifacts that may be used to help understand system configuration (Legend, Diagrams, etc)  
--	
+  
 Baselines
 -	Provide a configuration snapshot
 -	Dual Net
 -	You can use the snapshot to assess if the settings are outside of an approved change management process system
 -	Basically, the default configuration setting set by an organization
 
-Versioning/Version Controls
+**Versioning/Version Controls**
 -	Assigns each release of a piece of software and an incrementing version number that may be used to identify any given copy
 -	These verison #s are written as three part decimals, with the 
 -	First number representing the major version of software
 -	Second number representing a major updates
 -	Third number representing minor updates Ex= IPhone IOS 14.1.2
 
-Standardizing Device Configurations by:
+**Standardizing Device Configurations by:**
 -	Standardizing Naming conventions
 -	IP Addressing schemas
-
-Security Governance / Security Policy Framework
+**
+Security Governance / Security Policy Framework**
 
 -	You must first identify how domestic and international Laws and Regulations apply to an organization.  A framework that everyone in an organization must follow
 
-There are 4 types of documents in a Security Policy Framework
+**There are 4 types of documents in a Security Policy Framework**
 
-Policies
--	Provide the foundation for an organization’s information security program
--	Describes organization’s security expectations 
--	Policies are set by Senior Management 
--	Policies should stand the test of time anticipating future changes
--	Compliance with Policies are mandatory
+	Policies
+		-	Provide the foundation for an organization’s information security program
+		-	Describes organization’s security expectations 
+		-	Policies are set by Senior Management 
+		-	Policies should stand the test of time anticipating future changes
+		-	Compliance with Policies are mandatory
+	
+	Standards
+		-	Describes the specific details of security controls
+		-	Compliance with Standards are mandatory
+	
+	Guidelines
+		-	Provide advice to the rest of the organization on best practices
+		-	Compliance with Guidelines are optional
+	
+	Procedures
+		-	Step-by-step procedures of an objective. 
+		-	Compliance can be mandatory or optional
 
-Standards
--	Describes the specific details of security controls
--	Compliance with Standards are mandatory
-
-Guidelines
--	Provide advice to the rest of the organization on best practices
--	Compliance with Guidelines are optional
-
-Procedures
--	Step-by-step procedures of an objective. 
--	Compliance can be mandatory or optional
-
-Best Practice of Security Policies
+**Best Practice of Security Policies**
 
 1.	Acceptable Use Policies (AUP)
 -	Described authorized uses of technology
-2.  Data Handling Policies
+  
+2. 	Data Handling Policies
 -	Describe how to protect sensitive information
-3.  Password Policies
+-	
+3.	Password Policies
 -	Describes password security practices
--	An area where all the password requirements (length, complexity) gets officially documented 
+-	An area where all the password requirements (length, complexity) gets officially documented
+  
 4.	Bring Your Own Device Policies (BYOD)
--	Cover the usage of personal devices with company information 
+-	Cover the usage of personal devices with company information
+  
 5.	Privacy Policies
 -	Cover the use of personally identifiable information 
 -	Can be enforced by National & Local authorities
+
 6.	 Change Management Policies
 -	Cover the documentation, approval, and rollback of technology changes
 
+**Business Continuity **
 
-
-Business Continuity 
-Business Continuity Planning (BCP)
+**Business Continuity Planning (BCP)**
 -	The set of controls designed to keep a business running in the face of adversity, whether natural or man-made
 -	Also known as Continuity Of Operations Planning (COOP)
 -	Directly impacts the #3 goal of security = Availability
 -	When planning, proactively as what business activities, systems, and controls will it configure 
 
-Business Impact Assessment (BIA)
+**Business Impact Assessment (BIA)**
 -	A risk assessment that uses a quantitative or qualitative process
 -	Begins by identifying organization’s mission essential functions and then traces those backwards to identify the critical IT systems that support those functions
 
 In Clouding, Business Continuity Planning requires collaboration between cloud providers and customers
 
-Redundancy
+**Redundancy**
 -	The level of protection and against the failure of a single component 
 
-Single Point of Failure Analysis
+**Single Point of Failure Analysis**
 -	Provides a mechanism to identify and remove single points of failure from their systems 
 -	The SPOF analysis continues until the cost of addressing risk outweighs the benefit
 -	SPOF can be used in many areas other than the IT Infrastructure, it can be applied in management of HR, 3rd party vendor reliance etc)
 
-Continued Operation of Systems
+**Continued Operation of Systems**
 
 1.	High Availability
 -	Uses multiple systems to protect against service failure (Different from AWS Cloud as in that it does not just apply to AZs but rather everything including multiple firewalls etc)
-2.   Fault-Tolerance 
+2.   	Fault-Tolerance 
 -	Makes a single system resilient against technical failures
 -	Load Balancing
 -	Spreads demand across available systems 
 
-Common Points of Failure
+**Common Points of Failure**
 
 1.	Power Supply
 -	Contains moving parts
@@ -402,6 +407,7 @@ Common Points of Failure
 -	Also includes an extra disc called Parity Block
 -	When one of the disc fails, the Parity Block is used to regenerate the failed disc’s content
 -	RAID is a Fault-Tolerance technique NOT a Back-up strategy
+  
 3.	Networking
 
 -	Improve networking redundancy by having multiple Internet service providers
@@ -414,23 +420,25 @@ Fault-Tolerance mechanisms prevents systems from failing, even if one of these a
 -	Diversity of Vendors Diversity of Cryptography
 -	Diversity of Security Controls 
 
-Incident Response Plans
+**Incident Response Plans**
 
 -	Provide structure during cybersecurity incidents
 -	Outlines policies, procedures and guidelines that govern cybersecurity incidents
 
-Elements of a Incident Response Plan
+**Elements of a Incident Response Plan**
 -	Statement of Purpose
 -	Strategies and goals for incident response
 -	Approach to incident response Communication with other groups
 -	Senior leadership approval
+		
+**Tips on best practices:**
 
-Tips on best practices:
--	When developing your Incident Response Plan, consult NIST SP 800-61 as you develop your plan
--	Also review other organization’s plan NIST SP 800-61
--	Assists organization mitigating the potential business impact of information security incidents providing practical guidance. 
+		-	When developing your Incident Response Plan, consult NIST SP 800-61 as you develop your plan
+		-	Also review other organization’s plan NIST SP 800-61
+		-	Assists organization mitigating the potential business impact of information security incidents providing practical guidance. 
 
-Building a Incident Response Team
+**Building a Incident Response Team**
+
 IR Team should consist of:
 -	Management
 -	Information Security Personnel
@@ -443,79 +451,82 @@ IR Team should consist of:
 If your organization lacks personnels from these areas:
 -	Use incident response service providers to assist  if necessary
 
-Incident Communication Plan
+**Incident Communication Plan**
+
 -	Communications Plans ensure that all participants have timely, accurate information
 -	Make sure to minimize or limit communications to third parties (Media etc)
 -	You will have to choose whether or not to involve law enforcement
 -	Drawbacks of law enforcement engagement can be release of sensitive details to public which may be unfavorable to the organization 
 -	Always involve your own organization’s legal team to ensure compliance with laws and organization’s obligations with 3rd parties. 
 -	Describe communication paths on how information will trickle down the organization
+**
+Incident Identification**
 
-Incident Identification
 -	Organizations have a responsibility to collect, analyze and retain security information
 
+**Data is crucial to incidence detection**
 
+	Incident Data Sources
+	-	IDS/IPS - Intrusion Detection System/Intrusion Prevention System
+	-	Designed to only provide an alert about a potential incident
+	-	Firewalls
+	-	Authentication Systems
+	-	Integrity Monitors
+	-	Vulnerability Scanners
+	-	System Event Logs
+	-	Netflow Records
+	-	Antimalware Packages
 
-Data is crucial to incidence detection
-
-Incident Data Sources
--	IDS/IPS - Intrusion Detection System/Intrusion Prevention System
--	Designed to only provide an alert about a potential incident
--	Firewalls
--	Authentication Systems
--	Integrity Monitors
--	Vulnerability Scanners
--	System Event Logs
--	Netflow Records
--	Antimalware Packages
-
-Security Incident and Event Management (SIEM)
+**Security Incident and Event Management (SIEM)**
 -	Security solution that collects information from diverse sources, analyzes it for signs for security incidents and retains it for later use. 
 -	Centralized log repositories 
 -	Basically take a load of data, feed it to the SIEM, and it will spit out details regarding risk
 
 When these systems and security mechanisms FAIL do detect risks before dealt with internally, an EXTERNAL source (customer) may be first to detect a risk. Therefore, IR Team should have a consistent method for receiving, recording, and evaluating external reports
-
-First Responder Duty
+**
+First Responder Duty**
 -	First responders (whomever they are, whom encounters the risk first) have a set of responsibilities as they may have the power to tremendously reduce risk
 -	Highest Priority
 -	The highest priority of a First Responder must be containing damage through isolation
 
-Disaster Recovery (DR)
+**Disaster Recovery (DR)**
 -	Restores normal operations as quickly as possible following a disaster
 -	Disaster recovery plan steps in when business continuity plan fails 
 -	Disaster recovery plan effort is not finished until organization is completely back to normal
 -	Flexibility is key during a disaster response
 
-Initial Response Goals
+**Initial Response Goals**
 1.	Contain the damage through isolation
 2.	Recover normal operations
 
-Communications required for an effective DR
+**Communications required for an effective DR**
 -	Initial Report
 -	Status updates
 -	Ad hoc messages
+  
 Once Initial Response is implemented, the DR team shifts to Assessment Mode
 Assessment Mode
+
 -	Goal of this mode is to triage/analyze the damage and implement recover operations on a permanent basis
--	Depending on circumstances there may be an intermediary mode of Temporary Recovery but will gradually move to Permanent Recovery 
-Recovery Time Objective (RTO)
+-	Depending on circumstances there may be an intermediary mode of Temporary Recovery but will gradually move to Permanent Recovery
+  
+**Recovery Time Objective (RTO)**
 -	Is the targeted amount of time to restore service after disruption
-Recovery Point Objective (RPO)
+**Recovery Point Objective (RPO)**
 -	Is the targeted amount of data to recover
-Recovery Service Level (RSL)
+**Recovery Service Level (RSL)**
 -	Is the targeted percentage of service to restore
 -	Also the percentage of service that must be available during a disaster
 
+**Backups**
 
-
-Backups
 -	Provides an organization with a fail-safe way to recover their data in the event of
 -	Technology failure
 -	Human error
 -	Natural disaster
 
-Backup Methods
+**Backup Methods**
+
 1.	Tape Backups
 -	Practice of periodically copying data from a primary storage device to a tape cartridge 
 -	Traditional method - outdated 
@@ -523,6 +534,8 @@ Backup Methods
 -	Writes data from Primary Disks to special disks that are set aside for backup purposes
 -	Backups that are sent to a storage area network or a network attached storage are also fitting in this category of backup
 3.	Cloud Backups - AWS, Azure, GC
+
+**3 Types of Backups **
 
 1.	Full Backups
 -	Include a complete copy of all data
@@ -535,35 +548,38 @@ Backup Methods
 3.	Incremental Backups
 -	Include all data modified since the last full or incremental backup
 
-Scenario: Joe performs full backups every Sunday evening and differential backups every weekday evening. His system fails on Friday morning. What backups does he restore?
+		Scenario: Joe performs full backups every Sunday evening and differential backups every weekday evening. His system fails on Friday morning. What backups does he restore?
+		
+		A: 1) Sundays Full Backup
+		    2) Thursday’s differential backup
+		
+		Scenario: Joe performs full backups every Sunday evening and incremental backups every weekday evening. His system fails on Friday morning. What backup does he restore?
+		
+		A: 1) Sunday’s Full Backup
+		    2) Monday, Tuesday, Wednesday, Thursday incremental backups
 
-A: 1) Sundays Full Backup
-    2) Thursday’s differential backup
+_Trade off: Incremental backups takes longer to restore but requires smaller storage_
 
-Scenario: Joe performs full backups every Sunday evening and incremental backups every weekday evening. His system fails on Friday morning. What backup does he restore?
+**Disaster Recovery Sites**
 
-A: 1) Sunday’s Full Backup
-    2) Monday, Tuesday, Wednesday, Thursday incremental backups
-
-Trade off: Incremental backups takes longer to restore but requires smaller storage
-
-Disaster Recovery Sites
 -	Provide alternate data processing facilities
 -	Usually stay idle until emergency situation arises
 
-3 Types of Disaster Recovery Sites/Alternate Processing Facility
+**3 Types of Disaster Recovery Sites/Alternate Processing Facility**
 
 1.	Hot Site
 -	Premier for of disaster recovery facility
 -	Fully operational Data Centers
 -	Can be activated in moments or automatically deployed
 -	Very expensive
+  
 2.	Cold Site
 -	Used to restore operations eventually, but requires a significant amount of time
 -	Empty Data Centers
 -	Stocked with core equipment, network, and environmental controls but do not have the servers or data required to restore business
 -	Relatively Inexpensive
 -	Activating them may take weeks or even months
+  
 3.	Warm Site
 -	Hybrid of Hot and Cold
 -	Stocked with core requirements and data
@@ -572,7 +588,7 @@ Disaster Recovery Sites
 -	Requires significant less time from IT Staff
 -	Activating them may take hours or days
 
- Disaster Recovery Sites don’t only provide a facility for technology operations,  also serve as an Offsite Storage Location. They are:
+ Disaster Recovery Sites don’t only provide a facility for technology operations, also serve as an Offsite Storage Location. They are:
 -	Geographically distant
 -	Site Resiliency
 -	Allows backups to be physically transported to the disaster recovery facility either manually or electronically called “Site Replication”
@@ -583,11 +599,13 @@ Disaster Recovery Sites
 Alternate Business Process
 -	A change of an organization’s business protocols to  match the current Disaster Recovery Plan
 
-Disaster Recovery Testing Goals
+**Disaster Recovery Testing Goals**
+
 1.	Validate that the plan functions correctly
 2.	Identify necessary plan updates
 
-5 Types of Disaster Recovery Testing
+**5 Types of Disaster Recovery Testing**
+
 1.	Read-through
 -	Simplest form of Disaster Recovery Testing
 -	Asks each team member to review their role in the disaster recovery process and provide feedback
@@ -609,7 +627,7 @@ Disaster Recovery Testing Goals
 -	Can be very disruptive to business
 
 
-Physical Access Controls
+**Physical Access Controls**
 Facilities that require Physical Security:
 
 1.	Data Centers
@@ -626,16 +644,17 @@ Facilities that require Physical Security:
 -	Neatly organized cables in the ceiling
 7.	Operations Center
 
-Types of Physical Security
+**Types of Physical Security**
 1.	Gates
 -	Allows you to focus on other security controls
 2.	Bollards
--	Block vehicles while allowing pedestrian traffic 
-CPTED
+-	Block vehicles while allowing pedestrian traffic
+  
+**CPTED**
 -	Crime Prevention Through Environmental Design
 -	Basically giving principles to design your crime prevention mechanisms in a way that is appropriate with your environmental surroundings 
-•	
-CPTED Goals
+  
+**CPTED Goals**
 1.	Natural Surveillance
 -	Design your security in a way that allows you to observe the natural surroundings of your facility
 -	Windows, Open Areas, Lightning
@@ -646,9 +665,10 @@ CPTED Goals
 -	Making it visually and physically obvious that the area is closed to the public
 -	Signs, Lightnings
 
-Visitor Management
+**Visitor Management**
 -	Visitor management procedures protect against intrusions
-Visitor Procedures
+  
+**Visitor Procedures**
 -	Describe allowable visit purposes
 -	Explain visit approval authority 
 -	Describe requirements for unescorted access
@@ -658,21 +678,19 @@ Visitor Procedures
 -	Cameras add a degree of monitoring in visitor areas
 -	Cameras should always be disclosed
 
-Physical Security  (Human Security)
+**Physical Security  (Human Security)**
 -	Receptionists may act as Security Guards
 -	Sometimes an “aggressive” look is sometimes desirable
 -	Robots may replace human security patrols
--	
-Two Person Rule (Two-Person Integrity)
+  
+**Two Person Rule (Two-Person Integrity)**
 -	Two people must enter sensitive areas together
 
-Two Person Control
+**Two Person Control**
 -	Two people must have control access to very sensitive functions, requiring an agreement of 2 persons before action
 -	Ex=Requiring 2 Keys to trigger a launch of Nuclear Missiles
 
-
-
-Logical Access Controls
+**Logical Access Controls**
 Account Management Tasks
 -	Implementing Job Rotation schemes
 -	Implementing for employees to rotate job functions for purpose of diversity and integrity in work
@@ -682,6 +700,7 @@ Account Management Tasks
 -	Ensuring that as employees move around an organization with different roles, that they are given access to corresponding roles
 
 Account Monitoring Procedures
+
 1.	Account Audits
 -	Completed by pulling all permission list, review, and make adjustments 
 -	Protects against Inaccurate Permissions
@@ -710,88 +729,95 @@ Account Monitoring Procedures
 5.	Geofencing
 -	Alerts when a device leaves defined boundaries 
 
-Provisioning and Deprovisioning
+**Provisioning and Deprovisioning**
 -	Involves the process of creating, updating and deleting user accounts in multiplace applications and systems
 -	Crucial to Identity and Access Management Task
 
-Provisioning
+**Provisioning**
 -	After onboarding, administrators create authentication credentials and grant appropriate authorization
 
-Deprovisioning
+**Deprovisioning**
 -	During the off-boarding process, administrators disable accounts and revoke authorizations at the appropriate time.
 -	Prompt Termination (quickly acting after off boarding) is critical
 -	Prevents users from accessing resources without permission
 -	More important if employee leaves in unfavorable terms 
 
-Routine Workflow (For offboarding)
+**Routine Workflow (For offboarding)**
 -	Disable accounts on a scheduled basis for planned departures
-Emergency Workflow (For offboarding)
--	Immediately suspends access when user is unexpectedly terminated 
+  
+**Emergency Workflow (For offboarding)**
+-	Immediately suspends access when user is unexpectedly terminated
+  
 Incorrect Timed Account-Deprovisioning may:
 -	Inform a user in advance of pending termination
 -	Allow user to access to resources after termination
 -	It is a good idea to Deactivate the account first before permanent removal as it can be reversed
-Authorization
+  
+**Authorization**
 -	Final step in the Access Control Process
 -	Determines what an authenticated user can do
 
-Principle of Least Privilege
+**Principle of Least Privilege**
 
 -	User should have the minimum set of permission necessary to perform their job
 -	Protects against internal risks as a malicious employee’s damage will be limited to their access
 -	Protects against external risk as if an account was hacked, the damage they can do would be limited to the permissions on the stolen account. 
 
-Mandatory Access Control (MAC) System - Confidentiality
+**Mandatory Access Control (MAC) System - Confidentiality**
 
--	Permissions are determined by the system/operating system
--	Users cannot modify any permissions
--	Rule-based access system
--	Most Stringent/strict
+	-	Permissions are determined by the system/operating system
+	-	Users cannot modify any permissions
+	-	Rule-based access system
+	-	Most Stringent/strict
 
-Discretionary Access Control (DAC) System - Availability
--	Permissions are determined by the file owners 
--	Most Common type of access control
--	Flexible
+**Discretionary Access Control (DAC) System - Availability**
+
+	-	Permissions are determined by the file owners 
+	-	Most Common type of access control
+	-	Flexible
 
 Role-Based Access Control (RBAC) Systems - Integrity
--	Permissions are granted to groups of people/ job functions
--	Group based
+	
+	-	Permissions are granted to groups of people/ job functions
+	-	Group based
 
-Computer Networking
+**Computer Networking**
 
-Network
--	Connect computers together
--	Can connect computers within an office (LAN) or to the global internet
+	Network
+	-	Connect computers together
+	-	Can connect computers within an office (LAN) or to the global internet
+	
+	Local Area Networks (LANs)
+	-	Connect devices in the same building
+	-	LANs are connected to Wide Area Networks (WANs)
+	
+	Wide Area Networks (WANs)
+	-	Connect across large distances
+	-	Connects to different office locations and also to the internet
+	-	When an LAN is connected to WAN = Internet
 
-Local Area Networks (LANs)
--	Connect devices in the same building
--	LANs are connected to Wide Area Networks (WANs)
+**How Devices Connect to a LAN**
 
-Wide Area Networks (WANs)
--	Connect across large distances
--	Connects to different office locations and also to the internet
--	When an LAN is connected to WAN = Internet
+	1.	Ethernet
+	-	Connecting a physical Ethernet cable to an internet jack behind the ball
+	-	The Ethernet Cable is called the RJ-45 connectors a.k.a 8 Pins Connector
+	-	Super fast but requires physical cables
+	-	FYI: RJ-11 Cables are used for telephone connections. They have 6 Pins
+	2.	Wireless Networks (Wi-Fi)
+	-	Create Wireless LANs
+	3.	Bluetooth
+	-	Creates a Personal Area Network (PANs)
+	-	Designed to support a single person
+	-	Main purpose is to create a wireless connection between a computer and its peripheral devices
+	4.	Near Field Communication (NFC) Technology 
+	-	Allows extremely short range wireless connections (ex= wireless payment)
 
-How Devices Connect to a LAN
-1.	Ethernet
--	Connecting a physical Ethernet cable to an internet jack behind the ball
--	The Ethernet Cable is called the RJ-45 connectors a.k.a 8 Pins Connector
--	Super fast but requires physical cables
--	FYI: RJ-11 Cables are used for telephone connections. They have 6 Pins
-2.	Wireless Networks (Wi-Fi)
--	Create Wireless LANs
-3.	Bluetooth
--	Creates a Personal Area Network (PANs)
--	Designed to support a single person
--	Main purpose is to create a wireless connection between a computer and its peripheral devices
-4.	Near Field Communication (NFC) Technology 
--	Allows extremely short range wireless connections (ex= wireless payment)
+**TCP/IP - Transmission Control Protocol/Internet Protocol**
 
-TCP/IP - Transmission Control Protocol/Internet Protocol
 -	A set of standardized rules that allow computers to communicate on a network such as the internet.
 -	Protocol suite at the heart of networking
 
-Internet Protocols
+**Internet Protocols**
 -	Main function is to provide an addressing scheme, known as the IP address
 -	Routes information across networks 
 -	Not just used on the internet
@@ -799,21 +825,23 @@ Internet Protocols
 -	Deliver packets (chunks of information) from source → destination
 -	Serves as a Network Layer Protocol
 -	Supports Transport Layer Protocols - which have a higher set of responsibilities
--	
-2 Types of Transport Layer Protocols
+  
+**2 Types of Transport Layer Protocols**
 
-1.	Transmission Control Protocol (TCP)
--	Responsible for majority of internet traffic
--	Is a Connection-Oriented protocol
--	Connection Oriented protocol means the connection is established before data is transferred 
--	Connection is ensured through TCP Three-Way Handshake 
--	TCP packets include special flags that identify the packets known as TCP Flags. 
+**1.	Transmission Control Protocol (TCP)**
+   
+	-	Responsible for majority of internet traffic
+	-	Is a Connection-Oriented protocol
+	-	Connection Oriented protocol means the connection is established before data is transferred 
+	-	Connection is ensured through TCP Three-Way Handshake 
+	-	TCP packets include special flags that identify the packets known as TCP Flags.
+  
 Within the TCP Flags:
 -	SYN Flag: Opens a connection
 -	FIN Flag: Closes an existing connection
 -	ACK: Used to acknowledge a SYN or FIN packet 
 
-TCP Three-Way Handshake
+**TCP Three-Way Handshake**
 
 1.	Source SYN sent to request open connection to Destination
 2.	Destination sends ACK + request (SYN) to reciprocate a open connection
@@ -821,17 +849,18 @@ TCP Three-Way Handshake
 -	Guarantees delivery through the destination system acknowledging receipt 
 -	Widely used for critical applications (email , web traffic etc)
 
-2.	User Datagram Protocol (UDP)
--	Connectionless Protocol, not connection-oriented
--	Lightweight
--	Does NOT use Three-Way Handshake
--	System basically send data off to each other blindly, hoping that it is received on the other end
--	Does not perform acknowledgments
--	Does not guarantee delivery  
--	It's often used for voice and video applications where guaranteed delivery is not essential. Every single packet doesn't have to reach the destination for video and voice to be comprehensible. 
+**2.	User Datagram Protocol (UDP)**
+
+	-	Connectionless Protocol, not connection-oriented
+	-	Lightweight
+	-	Does NOT use Three-Way Handshake
+	-	System basically send data off to each other blindly, hoping that it is received on the other end
+	-	Does not perform acknowledgments
+	-	Does not guarantee delivery  
+	-	It's often used for voice and video applications where guaranteed delivery is not essential. Every single packet doesn't have to reach the destination for video and voice to be comprehensible. 
 
 
-OSI (Open Systems Interconnection) Model -  Describes networks as having 7 different layers
+**OSI (Open Systems Interconnection) Model -  Describes networks as having 7 different layers**
 
 Layer 1: Physical Layer 
 -	Responsible for sending bits over the network
@@ -859,6 +888,7 @@ Layer 3: Network Layer
   Layer 7: Application Layer
 -	How users interact with data, using web browsers or other apps
 
+
 OSI                                             		TCP Model
 
 Layer 1: Physical Layer                       
@@ -871,7 +901,8 @@ Layer 7: Application Layer
 
 For the Internet Protocol (IP) to successfully deliver traffic between any two systems on a network, it has to use an addressing scheme
 
-IP Addresses
+**IP Addresses**
+
 -	Uniquely identify systems on a network
 -	Written in dotted quad notation (ex- 192.168.1.100). Also known as IPv4
 -	Means 4 numbers separated by periods
@@ -899,79 +930,78 @@ This uses a concept called sub-netting
 -	ex= fd02:24c1:b942:01f3:ead2:123a:c3d2:cf2f
 
 IP Addresses can be assigned in 2 ways
+
 1.	Static IPs
 -	Manually assigned IP Address by an administrator
 -	Must be unique 
 -	Must be within appropriate range for the network 
+
 2.	Dynamic Host Configuration Protocol (DHCP)
 -	Automatic assignment of IP Address from an administrator configured pool
--	
+  
 Servers are configured with Static IP Addresses
 End-user devices are configured with Dynamically-Changing IP Addresses 
 
-Network Ports
+**Network Ports**
 -	Like Apartment #s, guide traffic to the correct final destination
 -	IP addresses uniquely identifies a system while the Network Ports uniquely identifies a particular location of a system associated with a specific application 
 -	Think of it as
 -	IP Addresses - Street # of an Apartment
 -	Network Ports- Unit # of an Apartment
-Network Port Numbers
+  
+**Network Port Numbers**
 -	16-bit binary numbers
 -	2 to the power of 16 = 65,646 possible values
 -	65,646-1 (for 0) = 0-65,535 possibilities
-Port Ranges
+  
+**Port Ranges**
 -	0 - 1,023 = Well-known ports
 -	Reserved for common applications that are assigned by internet authorities
 -	Ensures everyone on the internet will know how to find common services such as : web servers, email servers
 -	Web-servers use the Well-known port 80
 -	Secure Web-servers use the Well-known port 443
-
 -	1,024 - 49,151 = Registered ports
--	Application vendors may register their applications to use these ports
--	Examples
--	 Microsoft Reserve port 1433 for SQL Server database connections
+-	
+  Application vendors may register their applications to use these ports. Examples
+-	Microsoft Reserve port 1433 for SQL Server database connections
 -	Oracle Reserve port 1521 for Database
 -	49,152 - 65,535 = Dynamic ports
 -	Applications can use on a temporary basis
 
-
-
-
-
-Important Port #s
+**Important Port #s**
 
 Administrative Services
--	Port 21 : File Transfer Protocol (FTP)
--	Transfers data between systems
--	Port 22 : Secure Shell (SSH)
--	Encrypted administrative connections to servers
--	Port 3389 : Remote Desktop Protocol (RDP)
--	Encrypted administrative connections to servers
--	Ports 137, 138, and 139 : NetBIOS - Windows
--	Network Communications using the NetBIOS protocol
--	Port 53 : Domain Name Service (DNS)
--	All systems use Port 53 for DNS lookups
+	-	Port 21 : File Transfer Protocol (FTP)
+	-	Transfers data between systems
+	-	Port 22 : Secure Shell (SSH)
+	-	Encrypted administrative connections to servers
+	-	Port 3389 : Remote Desktop Protocol (RDP)
+	-	Encrypted administrative connections to servers
+	-	Ports 137, 138, and 139 : NetBIOS - Windows
+	-	Network Communications using the NetBIOS protocol
+	-	Port 53 : Domain Name Service (DNS)
+	-	All systems use Port 53 for DNS lookups
 
 Mail Services
--	Port 25 : Simple Mail Transfer Protocol (SMTP)
--	Exchange email between servers
--	Port 110 : Post Office Protocol (POP)
--	Allows clients to retrieve mail 
--	Port 143 : Internet Message Access Protocol (IMAP)
--	Allows to retrieve mail 
+	-	Port 25 : Simple Mail Transfer Protocol (SMTP)
+	-	Exchange email between servers
+	-	Port 110 : Post Office Protocol (POP)
+	-	Allows clients to retrieve mail 
+	-	Port 143 : Internet Message Access Protocol (IMAP)
+	-	Allows to retrieve mail 
 Web Services
--	Port 80 : Hypertext Transfer Protocol (HTTP)
--	For unencrypted web communications
--	Port 443: Secure HTTP (HTTPS)
--	For encrypted connections 
--	
-Securing Wireless Networks
+	-	Port 80 : Hypertext Transfer Protocol (HTTP)
+	-	For unencrypted web communications
+	-	Port 443: Secure HTTP (HTTPS)
+	-	For encrypted connections 
+
+**Securing Wireless Networks**
 
 Service Set Identifier (SSID)
--	The name of your Wi-Fi
--	You can disable visibility of Wi-Fi (Hide)
--	Has an administrative password to the access point (connection)
--	Ensure to immediately change default administrator passwords 
+	-	The name of your Wi-Fi
+	-	You can disable visibility of Wi-Fi (Hide)
+	-	Has an administrative password to the access point (connection)
+	-	Ensure to immediately change default administrator passwords 
 
 You can configure what Type of Network you want
 1) Open Network Open for anyone to use (No Password Wifi)
@@ -981,38 +1011,46 @@ Other authentication required Network
 1) Preshared Keys (Home Wifi, Office, Cafe)        
 -	Changing Preshared keys is difficult 
 -	Prevents individual identification of users
+  
 2) Enterprise Authentication
 -	Uses individual passwords
+  
 3) Captive Portals
 -	Used in Starbucks, Airports, Tim-Hortons
 -	Provide authentication on unencrypted wireless networks
 -	Intercepts web requests to require Wi-Fi login
--	
-Wireless Encryption
+  
+**Wireless Encryption**
 
 •	A best practice for network security 
 •	Encryption hides the true content of network traffic from those without the decryption key 
-•	Takes, Radio Waves, and makes it secure                
+•	Takes, Radio Waves, and makes it secure           
+
 The Original approach to Security was: Wired Equival7ent Privacy (WEP)
 -	This is now considered insecure
+  
 The Second approach was : Wi-Fi Protected Access (WPA)
 -	Changes keys with the Temporal Key Integrity Protocol (TKIP)
 -	Changes the encryption key for each packet : preventing an attacker from discovering the key after monitoring the network for along period of time 
 -	This is now considered insecure
+  
 The Improved approach is : Wi-Fi Protected Access v2 (WPA2)
 -	Uses an advanced encryption protocol called Counter Mode Cipher Block Chaining Message Authentication Code Protocol (CCMP)
 -	WPA is now considered SECURE
+  
 The New approach is : Wi-Fi Protected Access v3 (WPA3)
 -	Supports Simultaneous Authentication of Equals (SAE)
 -	SAE is a secure key exchange protocol based upon the Diffie-Hellman Technique, to provide more secure initial setup of encrypted wireless communications 
 -	Also supports CCMP protocol
--	
-Ping and Traceroute
+  
+**Ping and Traceroute**
 Command Line Network (CLI)
 -	Provides quick and easy way to access network configurations and troubleshooting information
 -	Used my giving Commands
-Important Commands
-1.	ping 
+  
+**Important Commands**
+
+**1.	ping **
 -	Checks whether a remote system is responding or accessible
 -	Works using the Internet Control Message Protocol (ICMP)
 -	Basically sending a request and acknowledgement to confirm a connection
@@ -1026,21 +1064,26 @@ Important Commands
 -	f) Last Resort :  Repeat process on another computer
 -	Some systems do not respond to ping requests
 -	Example : A firewall may block ping requests
-2.	hping
+  
+**2.	hping**
+ 	
 -	Creates customized ping requests
 -	A variant of the basic “ping” command 
 -	Allows you to interrogate a system to see if it is present on the network 
--	Old and not monitored but still works 
-3.	traceroute
+-	Old and not monitored but still works
+  
+**3.	traceroute**
+ 	
 -	Determines the network path between two systems 
 -	If you want to know how packets are traveling today from my system Located in Toronto to a LinkedIn.com webserver, wherever that is located 
 -	Works only on Mac and Linux 
 -	In Windows, it is : tracert
-4.	pathping
+  
+**4.	pathping**
 -	Windows only command
 -	Combines ping and tracert functionality in a single command
 
-Network Threats
+**Network Threats**
 Malware
 -	One of the most significant threats to computer security
 -	Short for Malicious Software
