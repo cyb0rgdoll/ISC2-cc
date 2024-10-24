@@ -1,7 +1,7 @@
 
-# is2c-cc
+ISC2
 
-IS2C - CC Cybersecurity Course Notes (Chapple, Mike) to help you prepare for the exam
+ISC2 - CC Cybersecurity Course Notes (Chapple, Mike) to help you prepare for the exam
 
 The Certified in Cybersecurity℠ (CC) is for anyone interested in gaining a basic understanding of cybersecurity concepts 
 
