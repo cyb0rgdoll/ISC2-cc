@@ -9,7 +9,7 @@ This is an entry-level certification
 
 [Certified-in-Cybersecurity-Exam-Outline-August-2022-English.pdf](https://github.com/user-attachments/files/17511953/Certified-in-Cybersecurity-Exam-Outline-August-2022-English.pdf)
 
-[is2c cc notes.docx](https://github.com/user-attachments/files/17511952/is2c.cc.notes.docx)
+[ISC2 cc notes.docx](https://github.com/user-attachments/files/17511952/is2c.cc.notes.docx)
 
 **ISC2-CC Breakdown of Exam**
 
