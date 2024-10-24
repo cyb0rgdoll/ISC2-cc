@@ -7,7 +7,9 @@ The Certified in Cybersecurity℠ (CC) is for anyone interested in gaining a bas
 
 This is an entry-level certification
 
-[is2c cc notes.docx](https://github.com/user-attachments/files/17506139/is2c.cc.notes.docx)
+[Certified-in-Cybersecurity-Exam-Outline-August-2022-English.pdf](https://github.com/user-attachments/files/17511953/Certified-in-Cybersecurity-Exam-Outline-August-2022-English.pdf)
+
+[is2c cc notes.docx](https://github.com/user-attachments/files/17511952/is2c.cc.notes.docx)
 
 **ISC2-CC Breakdown of Exam**
 
