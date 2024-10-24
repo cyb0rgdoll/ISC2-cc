@@ -1,11 +1,7 @@
 
-ISC2
-
 ISC2 - CC Cybersecurity Course Notes (Chapple, Mike) to help you prepare for the exam
 
-The Certified in Cybersecurity℠ (CC) is for anyone interested in gaining a basic understanding of cybersecurity concepts 
-
-This is an entry-level certification
+The Certified in Cybersecurity℠ (CC) is for anyone interested in gaining a basic understanding of cybersecurity concepts. This is an entry-level certification
 
 [Certified-in-Cybersecurity-Exam-Outline-August-2022-English.pdf](https://github.com/user-attachments/files/17511953/Certified-in-Cybersecurity-Exam-Outline-August-2022-English.pdf)
 
@@ -13,11 +9,11 @@ This is an entry-level certification
 
 **ISC2-CC Breakdown of Exam**
 
-	-Domain 1: Security Principles (26%)
-	-Domain 2: Business Continuity, Disaster Recovery, and Incident Response (10%)
-	-Domain 3: Access Control Concepts (22%)
-	-Domain 4: Network Security (24%)
-	-Domain 5: Security Operations (18%)
+	-	Domain 1: Security Principles (26%)
+	-	Domain 2: Business Continuity, Disaster Recovery, and Incident Response (10%)
+	-	Domain 3: Access Control Concepts (22%)
+	-	Domain 4: Network Security (24%)
+	-	Domain 5: Security Operations (18%)
 
 **ISC2 Code of Ethics**
 	
@@ -121,6 +117,7 @@ Access Control Process
 **Authentication + Authorization + Accounting = AAA**
 
 **Password Security**
+
 Controls you can implement when setting password requirements:
 -	Password length requirements
 -	Password complexity requirements
@@ -148,16 +145,19 @@ Note: Passwords combined with security questions are NOT multi factor authentica
 Passwords and security questions are both something you know
 
 **Single Sign-On (SSO)**
+
 -	Shares authenticated sessions across systems
 -	Organizations create SSO solutions within their organizations to avoid users repeatedly authenticating  
 
 **Non-repudiation **
+
 -	Prevents someone from denying the truth 
 -	Physical signatures can provide non-repudiation on contracts, receipts etc  
 -	Digital signatures use encryption to provide non-repudiation
 -	Other methods can be biometric security controls, Video-surveillance etc
 
 **Privacy**
+
 Organization Privacy Concerns
 
 1.	Protecting our down data
@@ -224,9 +224,11 @@ Impact
 **2 Categories of Risk Assessment**
 
 **Qualitative Techniques**
+
 -	Uses subjective ratings to evaluate risk likelihood and impact: Usually in the form of low, medium or high on both the likelihood and impact scales. 
 
 **Quantitative Techniques**
+
 -	Uses subjective numeric ratings to evaluate risk likelihood and impact
 
 Risk Treatment (Management)
@@ -313,8 +315,8 @@ Baselines
 **Standardizing Device Configurations by:**
 -	Standardizing Naming conventions
 -	IP Addressing schemas
-**
-Security Governance / Security Policy Framework**
+
+**Security Governance / Security Policy Framework**
 
 -	You must first identify how domestic and international Laws and Regulations apply to an organization.  A framework that everyone in an organization must follow
 
@@ -358,27 +360,29 @@ Security Governance / Security Policy Framework**
 -	Cover the use of personally identifiable information 
 -	Can be enforced by National & Local authorities
 
-6.	 Change Management Policies
+6.	Change Management Policies
 -	Cover the documentation, approval, and rollback of technology changes
 
 **Business Continuity **
 
-**Business Continuity Planning (BCP)**
--	The set of controls designed to keep a business running in the face of adversity, whether natural or man-made
--	Also known as Continuity Of Operations Planning (COOP)
--	Directly impacts the #3 goal of security = Availability
--	When planning, proactively as what business activities, systems, and controls will it configure 
-
-**Business Impact Assessment (BIA)**
--	A risk assessment that uses a quantitative or qualitative process
--	Begins by identifying organization’s mission essential functions and then traces those backwards to identify the critical IT systems that support those functions
+	**Business Continuity Planning (BCP)**
+	-	The set of controls designed to keep a business running in the face of adversity, whether natural or man-made
+	-	Also known as Continuity Of Operations Planning (COOP)
+	-	Directly impacts the #3 goal of security = Availability
+	-	When planning, proactively as what business activities, systems, and controls will it configure 
+	
+	**Business Impact Assessment (BIA)**
+	-	A risk assessment that uses a quantitative or qualitative process
+	-	Begins by identifying organization’s mission essential functions and then traces those backwards to identify the critical IT systems that support those functions
 
 In Clouding, Business Continuity Planning requires collaboration between cloud providers and customers
 
 **Redundancy**
+
 -	The level of protection and against the failure of a single component 
 
 **Single Point of Failure Analysis**
+
 -	Provides a mechanism to identify and remove single points of failure from their systems 
 -	The SPOF analysis continues until the cost of addressing risk outweighs the benefit
 -	SPOF can be used in many areas other than the IT Infrastructure, it can be applied in management of HR, 3rd party vendor reliance etc)
@@ -434,6 +438,7 @@ Fault-Tolerance mechanisms prevents systems from failing, even if one of these a
 -	Outlines policies, procedures and guidelines that govern cybersecurity incidents
 
 **Elements of a Incident Response Plan**
+
 -	Statement of Purpose
 -	Strategies and goals for incident response
 -	Approach to incident response Communication with other groups
@@ -467,8 +472,8 @@ If your organization lacks personnels from these areas:
 -	Drawbacks of law enforcement engagement can be release of sensitive details to public which may be unfavorable to the organization 
 -	Always involve your own organization’s legal team to ensure compliance with laws and organization’s obligations with 3rd parties. 
 -	Describe communication paths on how information will trickle down the organization
-**
-Incident Identification**
+
+**Incident Identification**
 
 -	Organizations have a responsibility to collect, analyze and retain security information
 
@@ -491,8 +496,8 @@ Incident Identification**
 -	Basically take a load of data, feed it to the SIEM, and it will spit out details regarding risk
 
 When these systems and security mechanisms FAIL do detect risks before dealt with internally, an EXTERNAL source (customer) may be first to detect a risk. Therefore, IR Team should have a consistent method for receiving, recording, and evaluating external reports
-**
-First Responder Duty**
+
+**First Responder Duty**
 -	First responders (whomever they are, whom encounters the risk first) have a set of responsibilities as they may have the power to tremendously reduce risk
 -	Highest Priority
 -	The highest priority of a First Responder must be containing damage through isolation
@@ -520,8 +525,10 @@ Assessment Mode
   
 **Recovery Time Objective (RTO)**
 -	Is the targeted amount of time to restore service after disruption
+  
 **Recovery Point Objective (RPO)**
 -	Is the targeted amount of data to recover
+  
 **Recovery Service Level (RSL)**
 -	Is the targeted percentage of service to restore
 -	Also the percentage of service that must be available during a disaster
@@ -575,20 +582,20 @@ _Trade off: Incremental backups takes longer to restore but requires smaller sto
 
 **3 Types of Disaster Recovery Sites/Alternate Processing Facility**
 
-1.	Hot Site
+_1.	Hot Site_
 -	Premier for of disaster recovery facility
 -	Fully operational Data Centers
 -	Can be activated in moments or automatically deployed
 -	Very expensive
   
-2.	Cold Site
+_2.	Cold Site_
 -	Used to restore operations eventually, but requires a significant amount of time
 -	Empty Data Centers
 -	Stocked with core equipment, network, and environmental controls but do not have the servers or data required to restore business
 -	Relatively Inexpensive
 -	Activating them may take weeks or even months
   
-3.	Warm Site
+_3.	Warm Site_
 -	Hybrid of Hot and Cold
 -	Stocked with core requirements and data
 -	Not maintained in parallel fashion
@@ -707,7 +714,7 @@ Account Management Tasks
 -	Managing Account Lifecycle
 -	Ensuring that as employees move around an organization with different roles, that they are given access to corresponding roles
 
-Account Monitoring Procedures
+**Account Monitoring Procedures**
 
 1.	Account Audits
 -	Completed by pulling all permission list, review, and make adjustments 
@@ -784,7 +791,7 @@ Incorrect Timed Account-Deprovisioning may:
 	-	Most Common type of access control
 	-	Flexible
 
-Role-Based Access Control (RBAC) Systems - Integrity
+**Role-Based Access Control (RBAC) Systems - Integrity**
 	
 	-	Permissions are granted to groups of people/ job functions
 	-	Group based
@@ -826,6 +833,7 @@ Role-Based Access Control (RBAC) Systems - Integrity
 -	Protocol suite at the heart of networking
 
 **Internet Protocols**
+
 -	Main function is to provide an addressing scheme, known as the IP address
 -	Routes information across networks 
 -	Not just used on the internet
@@ -844,18 +852,18 @@ Role-Based Access Control (RBAC) Systems - Integrity
 	-	Connection is ensured through TCP Three-Way Handshake 
 	-	TCP packets include special flags that identify the packets known as TCP Flags.
   
-Within the TCP Flags:
--	SYN Flag: Opens a connection
--	FIN Flag: Closes an existing connection
--	ACK: Used to acknowledge a SYN or FIN packet 
+	Within the TCP Flags:
+	-	SYN Flag: Opens a connection
+	-	FIN Flag: Closes an existing connection
+	-	ACK: Used to acknowledge a SYN or FIN packet 
 
 **TCP Three-Way Handshake**
-
-1.	Source SYN sent to request open connection to Destination
-2.	Destination sends ACK + request (SYN) to reciprocate a open connection
-3.	Source acknowledges and sends ACK
--	Guarantees delivery through the destination system acknowledging receipt 
--	Widely used for critical applications (email , web traffic etc)
+	
+	1.	Source SYN sent to request open connection to Destination
+	2.	Destination sends ACK + request (SYN) to reciprocate a open connection
+	3.	Source acknowledges and sends ACK
+	-	Guarantees delivery through the destination system acknowledging receipt 
+	-	Widely used for critical applications (email , web traffic etc)
 
 **2.	User Datagram Protocol (UDP)**
 
@@ -1092,6 +1100,7 @@ Command Line Network (CLI)
 -	Combines ping and tracert functionality in a single command
 
 **Network Threats**
+
 Malware
 -	One of the most significant threats to computer security
 -	Short for Malicious Software
@@ -1103,54 +1112,62 @@ Malware
 -	Malicious actions taken by malware 
 -	Any type of malware can carry any type of payload 
 
-Types of Malware
+**Types of Malware**
 
-1.	Virus 
--	Spreads after a user takes some type of user action
--	Example : Opening an email attachment, Clicking a Link, Inserting an infected USB
--	Viruses do not spread unless someone gives them a hand
--	User education protects against viruses
-2.	Worms
--	Spread on their own by exploiting vulnerabilities
--	When a worm infects a system, it will use it as it’s base for spreading to other parts of the Local Area Network 
--	Worms spread because the systems are vulnerable
--	Patching protects against worms 
-3.	Trojan Horse
--	Pretends to be a useful legitimate software, with hidden malicious effect
--	When you run the software, it may perform as expected however will have payloads behind the scene
--	Application Control protects against Trojan Horses
--	Application Controls limit software that can run on systems to titles and versions 
-4.	Botnets
--	Are a collection of zombie computers used for malicious purposes
--	A network of infected systems 
--	Steal computing power, network bandwidth, and storage capacity
--	A hacker creating a botnet begins by 
--	1) Infecting a system with malware through any methods
--	2) Once the malware takes control of the system (hacker gains control), he or she joins/adds it to the preconceived botnet
+	1.	Virus 
+	-	Spreads after a user takes some type of user action
+	-	Example : Opening an email attachment, Clicking a Link, Inserting an infected USB
+	-	Viruses do not spread unless someone gives them a hand
+	-	User education protects against viruses
+  
+	2.	Worms
+	-	Spread on their own by exploiting vulnerabilities
+	-	When a worm infects a system, it will use it as it’s base for spreading to other parts of the Local Area Network 
+	-	Worms spread because the systems are vulnerable
+	-	Patching protects against worms
+  
+	3.	Trojan Horse
+	-	Pretends to be a useful legitimate software, with hidden malicious effect
+	-	When you run the software, it may perform as expected however will have payloads behind the scene
+	-	Application Control protects against Trojan Horses
+	-	Application Controls limit software that can run on systems to titles and versions
+  
+	4.	Botnets
+	-	Are a collection of zombie computers used for malicious purposes
+	-	A network of infected systems 
+	-	Steal computing power, network bandwidth, and storage capacity
+	-	A hacker creating a botnet begins by 
+	-	1) Infecting a system with malware through any methods
+	-	2) Once the malware takes control of the system (hacker gains control), he or she joins/adds it to the preconceived botnet
+
 How are Botnets Used
 -	Renting out computing power for profit
 -	Delivering spam  
 -	Engaging in DDoS attacks
 -	Mining Bitcoin and Cryptocurrencies 
--	Perform Brute Force Attacks - against passwords 
+-	Perform Brute Force Attacks - against passwords
+  
 Botnet Command and Control 
 -	Hackers command botnets through Command and Control Networks as they relay orders
 -	Communication must be indirect (hides the hackers true location)  and redundant
 -	Must be highly redundant (too much, alot) because security analysts will shut them down one by one. Its a cat and mouse game, whoever controls the Command and Control channels retains control of the Botnet the longest
--	
+
 Types of Command and Control Mechanisms for Ordering Botnets
 -	Internet Relay Chat (IRC)
 -	Twitter
 -	Peer to Peer within the Botnet
-In Summary Botnets:
-1.	Infect Systems
-2.	Convert to bots
-3.	Infect others
-4.	Check in through Command and Control Network
-5.	Get Instructions
-6.	Deliver payload
+  
+**In Summary Botnets:**
 
-Eavesdropping Attacks
+	1.	Infect Systems
+	2.	Convert to bots
+	3.	Infect others
+	4.	Check in through Command and Control Network
+	5.	Get Instructions
+	6.	Deliver payload
+
+**Eavesdropping Attacks**
+
 -	 All eavesdropping attacks rely on a compromised communication path between a client and a server  
 -	Network Device Tapping  
 -	DNS poisoning
@@ -1158,78 +1175,90 @@ Eavesdropping Attacks
 -	During poisoning attacks hackers may use the Man-in-the-Middle technique to trick the user to connect to the attacker directly, then the attacker directly connects to the server. Now the original user logs in to a fake server set up by the attacker and the attacker acts as a relay, the man in the middle, and can view all of the communications.
 -	The user will not know that there is a Man-in-the-Middle intercepting communications.   
 
-Man-in-the-browser Attacks
+**Man-in-the-browser Attacks**
 -	Variation of Man-in-the-Middle attack
 -	Exploit flaws in browsers and browser plugins to gain access to web communications
 
 If the attacker is able to control the network traffic, they may be able to conduct a Reply Attack
-Replay Attack
+
+**Replay Attack**
 -	Uses previously captured data, such as an encrypted authentication token, to create a separate connection to the server that’s authenticated but does not involve the real end user 
 -	The attacker cannot see the actually encoded credentials
 -	They can only see the encoded version of them 
 -	Prevent Replay Attacks by including unique characteristics:
 -	Token 
 -	Timestamp
-SSL Stripping
+  
+**SSL Stripping**
 -	Tricks browsers into using unencrypted communications 
 -	A variation of eavesdropping attack 
 -	A hacker who has the ability to view a user’s encrypted web communication exploits the vulnerability to trick the users browser into reverting to unencrypted communications for the world to see
 -	Strips the SSL or TLS protection 
 
-Implementation of Attacks - Cryptographic systems may have flaws = vulnerability = attacks 
+**Implementation of Attacks - Cryptographic systems may have flaws = vulnerability = attacks **
 
-Fault Injection Attacks
+**Fault Injection Attacks**
+
 -	Use externally forced errors
 -	Attacker attempts to compromise the integrity of a cryptic device by causing some type of external fault 
 -	For example : Attacker might use high-voltage electricity to cause malfunction that undermines security 
 -	These failures of security may cause systems to fail to encrypt data property.
-Side Channel Attacks
+  
+**Side Channel Attacks**
 -	Measure encryption footprints
 -	Attackers use footprints monitor system activity and to retrieve information that is actively being encrypted
--	For example : If a cryptographic system is improperly implemented, it may be possible for an attacker to capture the electromagnetic radiation emanating from that system and use the collected signal to determine the plain text information that is being encrypted 
--	Timing Attacks
+-	For example : If a cryptographic system is improperly implemented, it may be possible for an attacker to capture the electromagnetic radiation emanating from that system and use the collected signal to determine the plain text information that is being encrypted
+  
+  **Timing Attacks**
 -	A type of Side Channel Attack
 -	Measure encryption time 
 -	Attackers precisely measures how long cryptographic operations take to complete, gaining information about cryptographic process that may be used to undermine security
 
-Threat Identification and Prevention
-Intrusion Detection Systems (IDS)
--	Monitors network traffic for signs of malicious activity
--	MIS USE DETECTION AND ANOMALY DETECTION
--	Examples of malicious activity
--	SQL Injections
--	Malformed Packets
--	Unusual Logins
--	Botnet Traffic 
--	Alerts administrators 
--	Requires someone to take action 
-Intrusion Prevention System (IPS)
--	Automatically block malicious activity 
--	It is not a perfect system. They make 2 errors
--	1) False Positive Error
--	IDS/IPS triggers an alert when an attack did not actually take place
--	2) False Negative Error
--	IDS/IPS fails to trigger an alert when an actual attack occurs
+**Threat Identification and Prevention**
+
+**Intrusion Detection Systems (IDS)**
+	-	Monitors network traffic for signs of malicious activity
+	-	MIS USE DETECTION AND ANOMALY DETECTION
+	-	Examples of malicious activity
+	-	SQL Injections
+	-	Malformed Packets
+	-	Unusual Logins
+	-	Botnet Traffic 
+	-	Alerts administrators 
+	-	Requires someone to take action
+  
+**Intrusion Prevention System (IPS)**
+
+	-	Automatically block malicious activity 
+	-	It is not a perfect system. They make 2 errors
+	-	1) False Positive Error
+	-	IDS/IPS triggers an alert when an attack did not actually take place
+	-	2) False Negative Error
+	-	IDS/IPS fails to trigger an alert when an actual attack occurs
+ 
 Technology used to identify suspicious traffic:
+
 1.	Signature Detection Systems 
 -	Contain databases with rules describing malicious activity
 -	Alert admins to traffic matching signatures = Rule based Detection
 -	Cannot detect brand new attacks
 -	Reduce false positive rates
 -	Reliable and time-tested technology
+  
 2.	Anomaly Detection Systems 
 -	Builds models of “normal” activity, and finds an Outlier 
 -	Can detect brand ne attacks
 -	But has high false positive rate
--	
-Anomaly Detection , Behavior-based Detection , Heuristic Detection = Same Thing 
-_____
+  
+**Anomaly Detection , Behavior-based Detection , Heuristic Detection = Same Thing **
 
-IPS Deployment Modes
+**IPS Deployment Modes**
+
 1.	In-band Deployments
 -	IPS sits in the path of network traffic
 -	It can block suspicious traffic from entering the network 
 -	Risk : It is a single point of failure so it may disrupt the entire network 
+
 2.	Out-of-band (passive) Deployments 
 -	IPS sits outside of network traffic
 -	IPS is connected to a SPAN port on a switch 
@@ -1238,17 +1267,17 @@ IPS Deployment Modes
 -	It can react after suspicious traffic enters the network 
 -	It cannot pre detect as it can only know its existence once it enters the network 
 
-Malware Prevention
+**Malware Prevention**
+
 -	Antimalware software protects against many different threats
 -	Antimalware software protects against viruses, worms, Trojan Horses and spyware
 
+**Antivirus software uses 2 types of mechanisms to protect:**
 
-
-Antivirus software uses 2 types of mechanisms to protect:
-
-1.	Signature Detection
--	Watches for known patterns of malware activity 
-2.	Behavior Detection
+**1.	Signature Detection**
+-	Watches for known patterns of malware activity
+  
+**2.	Behavior Detection**
 -	Watches for deviations from normal patterns of activity 
 -	This type of mechanism is found in advanced malware protection tools like the Endpoint Detection and Response (EDR)
 -	Offer real-time, advanced protection
@@ -1261,9 +1290,9 @@ Antivirus software uses 2 types of mechanisms to protect:
 -	Installed on Endpoint devices
 -	Can perform Sandboxing
 -	Isolates malicious content
--	
-Port Scanners
-Vulnerability Assessment Tools
+  
+**Port Scanners
+Vulnerability Assessment Tools **
 
 1.	Port Scanner
 -	Looks for open network ports
@@ -1279,7 +1308,8 @@ Vulnerability Assessment Tools
 3.	Application Scanner
 -	Tests deep into application security flaws 
 
-Network Security Infrastructure
+**Network Security Infrastructure**
+
 Data Centers
 -	Have significant cooling requirements 
 -	Current Standard of Temperatures
@@ -1299,14 +1329,18 @@ Fire Suppression Methods
 -	Prevents burst pipes, by removing standby water
 3.	Chemical Systems
 -	Removes oxygen
+
 Always place MOUs
 -	Memorandum of Understanding
 -	Outlines the environmental requirements 
-_____
+
 Security Zones 
 -	Firewalls divide networks into security zones to protect systems of differing security models 
+
 Types of Security Zones
-1.	Network Border Firewall 
+
+1.	Network Border Firewall
+   
 -	Three network interfaces, connects 3:
 -	Internet 
 -	Intranet
@@ -1314,18 +1348,22 @@ Types of Security Zones
 -	Guest Network
 -	Wireless Network
 -	Endpoint Network
--	DMZ
+
+2.	DMZ
 -	You can place systems that must accept connections from the outside world such as mail, web servers  
 -	Because it is open, higher risk of compromise 
 -	If the DMZ is compromised, firewalls will still protect 
--	
-Zero Trust Approach : Systems do not gain any trust based solely upon their network location
+  
+**Zero Trust Approach : Systems do not gain any trust based solely upon their network location**
 
-3 Special-Purpose Networks
+**3 Special-Purpose Networks**
+
 1.	Extranet
 -	Special intranet segments that are accessible by outside parties like business partners
+
 2.	Honeynet
 -	Decoy networks designed to attract attackers
+
 3.	Ad Hoc Networks
 -	Temporary networks that may bypass security controls 
 -	East-West Traffic
@@ -1333,53 +1371,60 @@ Zero Trust Approach : Systems do not gain any trust based solely upon their netw
 North-South Traffic
 -	Networks traffic between systems in the data center and systems on the Internet 
 
-Routers and Switches 
-Routers, Switches and Bridges are the building blocks of computer networks
-Switches
--	Connect devices to the network
--	Has many network ports 
--	Reside in wiring closets and connect the computers in a building together 
--	Ethernet jacks are at the other end of network cables connected to switches 
--	Wireless access points (WAPs) connect to switches and create Wi-Fi networks
--	The Physical APs itself has a wired connection back to the switch 
--	Switches can only create Local Networks
--	Layer 2 of OSI Model - Data Link Layer 
--	Some switches can be in the Layer 3 of OSI Model - Network Layer (can interpret IP Addresses) 
--	For this to happen, they must use Routers 
-Routers
--	Connect networks to each other, making intelligent packet routing decisions
--	Serves as a central aggregation point for network traffic heading to or from a large network 
--	Works as the air traffic controller of the network 
--	Makes best path decisions for traffic to follow 
--	Use Access Control Lists to limit some traffic that are entering or leaving a network, this type of filtering does not pay attention to Connection states and are called  Stateless Inspection
-Virtual LANs (VLANs)
--	Separates systems on a network into logical groups based upon function 
--	Extend broadcast domain 
--	Users on the same VLAN will be able to directly contact each other as if they were connected to the same switch 
--	We use VLANs to create network segmentation which reduces security risk by liming the ability of unrelated systems to communicate with each other
--	Micro Segmentation
--	Extreme segmentation strategy
--	Temporary 
+**Routers and Switches **
 
-Configuring VLANs
+Routers, Switches and Bridges are the building blocks of computer networks
+
+	Switches
+	
+	-	Connect devices to the network
+	-	Has many network ports 
+	-	Reside in wiring closets and connect the computers in a building together 
+	-	Ethernet jacks are at the other end of network cables connected to switches 
+	-	Wireless access points (WAPs) connect to switches and create Wi-Fi networks
+	-	The Physical APs itself has a wired connection back to the switch 
+	-	Switches can only create Local Networks
+	-	Layer 2 of OSI Model - Data Link Layer 
+	-	Some switches can be in the Layer 3 of OSI Model - Network Layer (can interpret IP Addresses) 
+	-	For this to happen, they must use Routers
+  
+	Routers
+	-	Connect networks to each other, making intelligent packet routing decisions
+	-	Serves as a central aggregation point for network traffic heading to or from a large network 
+	-	Works as the air traffic controller of the network 
+	-	Makes best path decisions for traffic to follow 
+	-	Use Access Control Lists to limit some traffic that are entering or leaving a network, this type of filtering does not pay attention to Connection states and are called  Stateless Inspection
+  
+	Virtual LANs (VLANs)
+	-	Separates systems on a network into logical groups based upon function 
+	-	Extend broadcast domain 
+	-	Users on the same VLAN will be able to directly contact each other as if they were connected to the same switch 
+	-	We use VLANs to create network segmentation which reduces security risk by liming the ability of unrelated systems to communicate with each other
+	-	Micro Segmentation
+	-	Extreme segmentation strategy
+	-	Temporary 
+
+**Configuring VLANs**
+
 -	Enable VLAN trunking
 Allow switches in different locations on the network to carry the same VLANs
 -	Configure VLANs for each switch port
 
-Firewalls
+**Firewalls**
 -	Often sit at the network perimeter 
 -	Between Router and Internet
-Switch
-    I
-    I
-    I
-Switch  —------------- Router —------------- Firewall —------------- Internet
-    I
-    I
-    I
-Switch
+  
+	Switch
+	    I
+	    I
+	    I
+	Switch  —------------- Router —------------- Firewall —------------- Internet
+	    I
+	    I
+	    I
+	Switch
 
-Firewalls connect 3 networks together
+**Firewalls connect 3 networks together**
 
 1.	Internet
 2.	Internal Network
@@ -1387,19 +1432,21 @@ Firewalls connect 3 networks together
 -	Contains systems that must accept direct external connections
 -	Isolates those systems due to risk of compromise
 -	Protects internal network from compromised DMZ systems
+  
 Older Firewalls use Stateless Firewalls
 -	Evaluate each connection independently
 Modern Firewalls use Stateful Inspection
 -	Keeps track of established connection
 
 Firewalls are basically rules to enter or exit.
-Firewall rule must provide
-1.	Source system address
-2.	Destination system address
-3.	Destination port and protocol
-4.	Action (Allow or Deny)
 
-Firewalls operate on the Principle of Implicit Deny
+	Firewall rule must provide
+	1.	Source system address
+	2.	Destination system address
+	3.	Destination port and protocol
+	4.	Action (Allow or Deny)
+
+**Firewalls operate on the Principle of Implicit Deny**
 -	If the firewall receives traffic not explicitly allowed by a firewall rule, then that traffic must be blocked 
 -	Basically saying, if you don’t have a passcard, you cannot get in as the door is always closed 
 -	The Newest type of Firewalls are called New Generation Firewalls (NGFW)
@@ -1407,20 +1454,20 @@ Firewalls operate on the Principle of Implicit Deny
 -	Evaluate requests based on identity of user, nature of application, time of day etc. 
 
 
+**Other Firewall Roles**
 
-Other Firewall Roles
 1.	Network Address Translation (NAT) Gateway
 -	The firewall translates between the public IP Addresses used on the internet and private IP Addresses used on the local networks
 2.	Content/URL Filtering
 3.	Web application firewall 
 -	Understands how HTTP protocol works and dive deep into those application connections, looking for signs of SQL Injection, Cross-site scripting, and other web application attacks 
 
-Firewall Deployment Options 
+**Firewall Deployment Options **
 Choose deployment methodology
 
-1.	Network Hardware
+**1.	Network Hardware**
 -	Physical devices that sit on a network and regulate traffic 
-2.	Host-Based software Firewalls
+**2.	Host-Based software Firewalls**
 -	Software applications that reside on a server that performs other functions
 
 Most organizations choose to use both network firewalls  
@@ -1429,29 +1476,32 @@ Choose between Open-source Vs Proprietary technology
 -	Network Hardware are always Proprietary
 -	Software Firewalls may be either Proprietary or Open Source
 Choose Deployment Mechanism 
-1.	Hardware Appliance
-2.	Virtual Appliance 
+**1.	Hardware Appliance
+2.	Virtual Appliance **
 
-VPNs and VPN Concentrators 
+**VPNs and VPN Concentrators **
 
 VPNs provide 2 security functions:
+
 1.	Site-to-Site VPNs
 -	Connect remote offices to each other and headquarters 
 -	Ex= Branch → HQ
 2.	Remote Access VPNs
 -	Provide remote access to corporate networks for mobile users
-VPNs
--	Works by using encryption to create a virtual tunnel between two systems over the internet
--	Everything on one tunnel is encrypted and decrypted when it exits
--	VPNs require an endpoint that accepts VPN connections
--	Endpoints can be many things:
--	Firewalls
--	Router
--	Server
--	Dedicated VPN Concentrators - Used for High Volume 
--	Firewalls, Router, Server does not contain specialized hardware that accelerates    
+  
+**VPNs**
 
-Encryption
+	-	Works by using encryption to create a virtual tunnel between two systems over the internet
+	-	Everything on one tunnel is encrypted and decrypted when it exits
+	-	VPNs require an endpoint that accepts VPN connections
+	-	Endpoints can be many things:
+	-	Firewalls
+	-	Router
+	-	Server
+	-	Dedicated VPN Concentrators - Used for High Volume 
+	-	Firewalls, Router, Server does not contain specialized hardware that accelerates    
+
+**Encryption**
 
 IPSec (Internet Protocol Security) Protocol
 -	Creates encrypted tunnels 
@@ -1460,6 +1510,7 @@ IPSec (Internet Protocol Security) Protocol
 -	Provides secure transport
 -	Difficult to configure 
 -	Often used for Static Site-to-Site VPN Tunnels
+  
 SSL/TLS VPNs
 -	Works at the Application Layer over TCP port 443
 -	Works on any system on a web browser
@@ -1470,6 +1521,7 @@ HTML5 VPNs
 -	A remote access VPN
 
 When implementing a remote Access VPN admins must choose :
+
 1.	Full Tunnel VPN
 -	All network traffic leaving the connected device is routed through the VPN tunnel, regardless of final destination 
 2.	Split Tunnel VPN
@@ -1484,16 +1536,18 @@ Always on VPN
 -	Always protected  by strong encryption
 
 
-Network Access Control (NAC)
+**Network Access Control (NAC)**
 -	Intercepts network traffic coming from unknown devices and verifies that the system and users are authorized before allowing further communication
 -	Uses 802.1x authentication. This requires 3 devices
 
 1.	Supplicant - Device that sends request 
 2.	Authenticator - The switch
 3.	Authentication Server – Backend
+**
+Supplicant(Sends credentials) → Authenticator(Receives and passes it to AS) → Authenticator Server (authenticates and sends results to authenticator → Authenticator → Supplicant → Access**
 
-Supplicant(Sends credentials) → Authenticator(Receives and passes it to AS) → Authenticator Server (authenticates and sends results to authenticator → Authenticator → Supplicant → Access
-NAC Roles
+**NAC Roles**
+
 1.	User and device authentication (what we discussed above)
 2.	Role-based access
 -	Once authenticator learns the identity of requested user it places the user in the network based upon that user’s identity
@@ -1506,13 +1560,18 @@ NAC Roles
 -	It will be placed into a quarantine VLAN where they will have limited internet access and no access to internal resources
 -	Posture checking is done through an Agent or Agentless
 
-Internet of Things
+**Internet of Things**
+
 -	Smart devices
-IOT Security Challenges
+  
+**IOT Security Challenges**
+
 -	Difficult to update
 -	Connect to home and office wireless (Risk for malicious actors) 
 -	Connects back to cloud services for command and control, creating a pathway for external attackers 
-Security of IOT 
+
+**Security of IOT **
+
 -	Check for weak default passwords
 -	Make sure to regularly update and patch
 -	Some have Automatic Updates and some require Manual Websites
@@ -1526,18 +1585,20 @@ Security of IOT
 -	Application firewalls provide added protection for embedded devices
 -	Network Segmentation is the most important control for embedded devices
 
-Cloud Computing
--	Delivering computing resources to a remote customer over a network
+**Cloud Computing**
 
+-	Delivering computing resources to a remote customer over a network
 -	Official Definition: A model for enabling ubiquitous, convenient, on-demand network access to shared pool of configurable computing resources (networks, servers, storage, applications, services) that can be rapidly provisioned and released with menial management effort or service provider interaction
-Cloud Service Categories
+
+**Cloud Service Categories**
 1.	Software as a Service (SaaS)
 -	Customer purchases an entire app
 2.	Infrastructure as a Service (IaaS)
 -	Customer purchase servers/storage and create their own IT solutions 
 3.	Platform as a Service (PaaS)
 -	Customer purchases app platform 
-Cloud Deployment Models
+
+**Cloud Deployment Models**
 1.	Private Cloud
 -	Dedicated Cloud Infrastructure
 2.	Public Cloud
@@ -1548,9 +1609,10 @@ Cloud Deployment Models
 -	Combines resources from two different public cloud vendors (AWS + Azure)
 -	Community Cloud
 
-Managed Service Providers (MSPs)
+**Managed Service Providers (MSPs)**
 -	Offer information technology services to customers
-Managed Security Service Providers (MSSPs)
+  
+**Managed Security Service Providers (MSSPs)**
 -	Provide security services for other organizations as a manage service  
 -	Must be carefully monitored
 -	Lot of service
@@ -1559,36 +1621,43 @@ Managed Security Service Providers (MSSPs)
 -	Manage firewalls
 -	Manage Access & Identity Management
 -	MSSPs are also known as Security as a Service (SECaaS)
-Cloud Access Security Brokers (CASB) 
+  
+**Cloud Access Security Brokers (CASB) **
 -	Add a third-party security layer to the interactions that users have with other cloud 
--	services 
+-	services
+  
 Works in 2 ways
-1) Network-Based CASB
--	Broker intercepts traffic between the user and the cloud service, monitoring for security issues
--	Broker can block request 
-2) API- Based CASB
--	Does not sit on traffic unlike Network-Based CASB
--	The broker queries the cloud service via API
--	Broker may not be able to block requests, depending upon API capabilities
 
-Vendor Relationship Management
+	1) Network-Based CASB
+	-	Broker intercepts traffic between the user and the cloud service, monitoring for security issues
+	-	Broker can block request 
+	2) API- Based CASB
+	-	Does not sit on traffic unlike Network-Based CASB
+	-	The broker queries the cloud service via API
+	-	Broker may not be able to block requests, depending upon API capabilities
+
+**Vendor Relationship Management**
+
 -	Ensure that vendor security policies are at least as stringent as your own 
 -	Vendor lock-in makes it difficult to switch vendors down the road. So be careful
 -	Conduct due diligence
 -	Socialize with team
 -	Present to stakeholders
 -	Schedule weekly meetings
+  
 Steps of Vendor Selector
-1.	Vendor Selection
--	Due Diligence
-2.	Onboarding
--	Verify details of contract
--	Confirm security incident notification
-3.	Monitoring
--	Offboarding
+	1.	Vendor Selection
+	-	Due Diligence
+	2.	Onboarding
+	-	Verify details of contract
+	-	Confirm security incident notification
+	3.	Monitoring
+	-	Offboarding
 
-Vendor Agreements
-Non-Disclosure Agreements (NDA)
+**Vendor Agreements**
+
+**Non-Disclosure Agreements (NDA)**
+
 -	Keep your mouth shut
 -	Service-Level Requirements (SLR)
 -	Document specific requirements that a customer has about any aspect of a vendor’s service performance 
@@ -1607,42 +1676,47 @@ Non-Disclosure Agreements (NDA)
 -	SOW is governed by terms in MSA. SOW is like am abeyance or patch 
 -	Ensure Security Requirements are mentioned in all agreements 
 
-Data Security Encryption
+**Data Security Encryption**
+
 -	Uses math to make data unreadable to unauthorized individuals 
 -	Transforms text from plaintext to ciphertext
 -	Uses decryption algorithm key to read message
--	
+  
 You can use Encryption in 2 different environments:
+
 1.	Data at Rest
--	Stored data 
--	Can be in:
--	File
--	Disk
--	Device 
+	-	Stored data 
+	-	Can be in:
+	-	File
+	-	Disk
+	-	Device
+  
 2.	Data in Transit
--	Data that is moving
--	HTTPS
--	Email
--	Mobile Applications
--	VPN (Network) 
+	-	Data that is moving
+	-	HTTPS
+	-	Email
+	-	Mobile Applications
+	-	VPN (Network) 
 
 
 
-Symmetric vs Asymmetric Cryptography
-Symmetric Encryption
+**Symmetric vs Asymmetric Cryptography
+Symmetric Encryption**
 
 -	You encrypt and decrypt with the same shared secret key
 -	It's like a password to a message
 -	You will keep needing more keys as network populates
 
-Asymmetric Encryption
+**Asymmetric Encryption**
+
 -	You encrypt and decrypt with different keys from the same pair
 -	Keys used for Asymmetric encryption and decryption (public & private) must be from the same pair
 
-Advanced Encryption Standard (AES) → Symmetric
-Rivest-Shamir-Adleman (RSA) → Asymmetric
+**Advanced Encryption Standard (AES) → Symmetric
+Rivest-Shamir-Adleman (RSA) → Asymmetric**
 
-Hash Functions
+**Hash Functions**
+
 -	One-way function that transforms a variable length input into a unique, fixed-length output
 -	One-way function = Cannot be reversed
 -	The output of a hash function will always be same length, regardless of input size
@@ -1651,71 +1725,83 @@ Hash Functions
 All criterias above must be met to have an effective Hash Function
 
 2 Ways Hash Function can fail:
+
 1.	If they are reversible
 2.	If they are not collision-resistant
 
-Common Hash Functions
+**Common Hash Functions**
+
 You must know which functions are considered insecure and which remain secure 
-1.	Message Digest 5 (MD5)
+
+**1.	Message Digest 5 (MD5)**
 -	Ron Rivest created MD5 in 1991
 -	MD5 is the 5th series of hash functions
 -	Message digest is another term for hash
 -	MD5 produces 128-bit hashes
 -	MD5 is no longer secure
-2.	SHA-1
+  
+**2.	SHA-1**
 -	Produces a 160-bit hash value
 -	Contains security flaws 
 -	SHA-1 is no longer secure
-3.	SHA-2
+  
+**3.	SHA-2**
 -	Replaced SHA-1
 -	Consists of a family of 6 has functions
 -	Produces output of 224, 256, 384 and 512 bits
 -	Uses a mathematically similar approach to SHA-1 and MD5
 -	SHA-2 is no longer secure
-4.	SHA-3 
+  
+**4.	SHA-3 **
 -	Designed to replace SHA-2
 -	Uses a completely different has generation approach than SHA-2
 -	Produces hashes of user-selected fixed strength
 -	Some people do not trust SHA algorithms because NSA created it
-5.	RIPEMD
+  
+**5.	RIPEMD**
 -	Created as an alternative to government-sponsored hash functions
 -	Produces 128, 160, 256, and 320-bit hashes
 -	Contains flaws in the 128-bit version
 -	160 bit is widely used. Even in Bitcoin
-Hash Based Message Authentication Code (HMAC)
+  
+**Hash Based Message Authentication Code (HMAC)**
 -	Combines symmetric cryptography and hashing
 -	Provides authentication and integrity
 -	Create and verify message authentication code by using a secret key in conjunction with a hash function
-Data Lifecycle
--	Explains the different stages of data in the cloud 
-Cycle
-1.	Create
-2.	Store
-3.	Use
-4.	Share
-5.	Archive
-6.	Destroy
+**
+Data Lifecycle**
+-	Explains the different stages of data in the cloud
+  
+		1.	Create
+		2.	Store
+		3.	Use
+		4.	Share
+		5.	Archive
+		6.	Destroy
+
+   
 -	Must be done in a secured manner
 -	Data Sanitization Techniques
 -	Clearing overwrites sensitive information to frustrate causal analysis
 -	Purging
 -	Destroying, shredding, pulverization, melting and burning
 
-Data Classification
+**Data Classification**
 -	Assign information into categories, known as classification, that determine storage, handling, and access requirements
 
-Assign Classification Based Upon:
+**Assign Classification Based Upon:**
+
 1.	Sensitivity of Information
 2.	Criticality of Information
 
-Classification Levels
+**Classification Levels**
 1.	High, Medium, Low
 2.	Public vs Private
 
-Labeling Requirements
+**Labeling Requirements**
 -	Requirement to identify sensitive information
-
-3 Types of Information classified by External Groups
+**
+3 Types of Information classified by External Groups**
 
 1.	Personally Identifiable Information (PII)
 -	Traceable to a specific person
@@ -1724,7 +1810,8 @@ Labeling Requirements
 3.	Payment Card Information (PCI)
 -	Covered by PCI DSS
 
-Logging and Monitoring
+**Logging and Monitoring**
+
 Logging establishes:
 1.	Accountability
 -	Who caused the event
@@ -1734,31 +1821,33 @@ Logging establishes:
 3.	Auditability
 -	Provide clear documentation of the events
 -	Realistically, logging data of a company can be overwhelming. Artificial Intelligence can help solve security data overload
-Security Information and Event Management (SIEM) has 2 functions: 
+
+**Security Information and Event Management (SIEM)** has 2 functions: 
+
 1.	They act as a central secure collection point 
 -	All systems send log entries directly to the SIEM
 -	Firewall log, Web server log, Database log, Router log, they are all sent to to SIEM where it will provide an overall picture 
 2.	Source of Artificial Intelligence
 
-
-Intrusion Detection System
+**Intrusion Detection System**
 -	Triggers the initial alert
 
-Security Awareness and Training
+**Security Awareness and Training**
 
-Social Engineering
+**Social Engineering**
 -	Manipulating people into divulging information or performing an action that undermines security. 
 
 6 Reasons why Social Engineering works:
+	
+	1.	Authority
+	2.	Intimidating
+	3.	Consensus
+	4.	Scarcity
+	5.	Urgency
+	6.	Familiarity 
 
-1.	Authority
-2.	Intimidating
-3.	Consensus
-4.	Scarcity
-5.	Urgency
-6.	Familiarity 
+**Impersonation Attacks**
 
-Impersonation Attacks
 -	Unsolicited commercial email
 -	Phishing
 -	Phishing is a category of spam
@@ -1778,13 +1867,14 @@ Impersonation Attacks
 -	Spoofing
 -	Faking an identity
 
-Security Awareness Training
+**Security Awareness Training**
 -	Programs help educate user about risks
-Security Training
 -	Provides users with the knowledge they need to protect the organization’s security
-Security Awareness
--	Keeps the lessons learned during security training top of mind for employees. Reminder
-Security Training Methods
+  
+**Security Awareness**
+-	Keeps the lessons learned during security training top of mind for employees.
+  
+**Security Training Methods**
 -	Instruction in on-site classes
 -	Integration with orientations
 -	Education through online computer-based training providers
@@ -1792,7 +1882,8 @@ Security Training Methods
 -	Implement Role-based training
 -	Consider frequency of training
 -	Review training materials regularly to ensure relevance
-Use a Diversity of Training Techniques
+-	
+**Use a Diversity of Training Techniques**
 -	Phishing simulations
 -	Gamification
 -	Capture the Flag exercises
