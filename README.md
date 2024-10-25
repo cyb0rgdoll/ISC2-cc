@@ -3,6 +3,17 @@ ISC2 - CC Cybersecurity Course Notes (Chapple, Mike) to help you prepare for the
 
 The Certified in Cybersecurity℠ (CC) is for anyone interested in gaining a basic understanding of cybersecurity concepts. This is an entry-level certification
 
+The CC exam covers various topics, including:
+
+    Security Principles
+    Incident Response, Business Continuity (BC), and Disaster Recovery (DR) Concepts
+    Access Controls Concepts
+    Network Security
+    Security Operations
+
+The duration of this exam is 2hrs, number of items is 100 and passing grade is 700 out of 1000.
+
+
 [Certified-in-Cybersecurity-Exam-Outline-August-2022-English.pdf](https://github.com/user-attachments/files/17511953/Certified-in-Cybersecurity-Exam-Outline-August-2022-English.pdf)
 
 [ISC2 cc notes.docx](https://github.com/user-attachments/files/17511952/is2c.cc.notes.docx)
@@ -10,11 +21,11 @@ The Certified in Cybersecurity℠ (CC) is for anyone interested in gaining a bas
 
 **ISC2-CC Breakdown of Exam**
 
-	-	Domain 1: Security Principles (26%)
-	-	Domain 2: Business Continuity, Disaster Recovery, and Incident Response (10%)
-	-	Domain 3: Access Control Concepts (22%)
-	-	Domain 4: Network Security (24%)
-	-	Domain 5: Security Operations (18%)
+	Domain 1: Security Principles (26%)
+	Domain 2: Business Continuity, Disaster Recovery, and Incident Response (10%)
+	Domain 3: Access Control Concepts (22%)
+	Domain 4: Network Security (24%)
+	Domain 5: Security Operations (18%)
 
 **ISC2 Code of Ethics**
 	
